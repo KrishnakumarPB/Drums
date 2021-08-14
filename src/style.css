@@ -1,0 +1,38 @@
+h1, p {
+    font-family: Lato;
+  }
+body{
+  background: rgb(1,22,2);
+  background: linear-gradient(90deg, rgba(1,22,2,1) 0%, rgba(52,3,11,1) 65%, rgba(2,10,54,1) 100%);
+}
+  .header
+  {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    color:white;
+    font-size:60px;
+    font-family: 'Roboto Mono', monospace;
+    padding:50px;
+  }
+  .element-container
+  {
+
+  display:grid;
+  height:500px;
+  grid-template-columns:150px 150px 150px;
+  grid-template-rows:150px 150px 150px;
+  justify-content:center
+  }
+  .elements 
+  {
+    height:150px;
+    width:150px;
+    color:white;
+    background-color:rgb(161, 26, 66);
+  
+  }
+  .elements:hover
+  {
+    background-color: rgb(206, 0, 0);
+  }
