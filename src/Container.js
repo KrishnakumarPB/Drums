@@ -1,6 +1,5 @@
 import React from 'react'
 import "./style.css"
-let src=""
 let x=""
 function Container(props)
 {

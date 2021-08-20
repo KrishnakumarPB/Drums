@@ -4,6 +4,7 @@ h1, p {
 body{
   background: rgb(1,22,2);
   background: linear-gradient(90deg, rgba(1,22,2,1) 0%, rgba(52,3,11,1) 65%, rgba(2,10,54,1) 100%);
+  /* background-color: #25d5dc; */
 }
   .header
   {
@@ -29,10 +30,14 @@ body{
     height:150px;
     width:150px;
     color:white;
-    background-color:rgb(161, 26, 66);
+    /* background-color:#761b49; */
+    border: 1px solid white;
+    background: rgba(16, 10, 99, 0.993);
   
   }
   .elements:hover
   {
-    background-color: rgb(206, 0, 0);
+    /* background-color: #1c4aab; */
+    background: rgb(24,53,203);
+    background: radial-gradient(circle, rgba(24,53,203,1) 0%, rgba(14,28,88,1) 52%);
   }
